@@ -1,0 +1,134 @@
+.login{
+    height: 60px;
+    width: 450px;
+    background-color:transparent;
+    position: relative;
+    left: 850px;
+    bottom: 570px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.login p{
+    color: rgba(255, 255, 255, 0.948);
+    font-size: 19px;
+    font-family: Okra, Helvetica, sans-serif;
+}
+.header .logo{
+    position: relative;
+    bottom: 450px;
+    left: 590px;
+    height: fit-content;
+    width: fit-content;
+}
+.header h1{
+    position: relative;
+    bottom: 430px;
+    left: 500px;
+    font-size: 38px;
+    font-weight: 150;
+    font-family: Okra, Helvetica, sans-serif;
+    letter-spacing: 1px;
+    height: fit-content;
+    width: fit-content;
+}
+.box2{
+    display: flex;
+    position: relative;
+    bottom: 180px;
+    left: 500px;
+}
+.box2 h2{
+    font-size: 36px;
+    color:rgb(28, 28, 28);
+    font-weight: 400;
+    font-family: Okra, Helvetica, sans-serif;
+    letter-spacing: 1.5px;
+}
+
+.para{
+    text-align: center;
+    font-size: 20px;
+    font-family: Okra, Helvetica, sans-serif;
+    color: rgb(105, 105, 105);
+    line-height: 180%;
+    position: relative;
+    bottom: 150px;
+    font-weight: 100;
+}
+
+.main{
+    height: 100px;
+    width: 80%;
+    background-color:transparent;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 150px;
+    flex-wrap: wrap ;
+
+}
+.main .box{
+
+    border: 1px solid rgb(232, 232, 232);
+    height:70px;
+    width: 330px;
+    background-color:rgb(255, 255, 255);
+    border-radius:6%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    bottom: 120px;
+
+}
+.main .box:hover{
+    box-shadow: rgba(28, 28, 28, 0.08) 0px 1.42623px 2.85246px;
+}
+
+.box p{
+    color:rgb(28, 28, 28);
+    font-size: 20px;
+    font-family: Okra, Helvetica, sans-serif;
+}
+
+.contact{
+    height: 400px;
+    width: 100%;
+    /* border: solid; */
+    background-color:rgba(0, 0, 0, 0.04);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.contact img{
+    position: absolute;
+    left: 190px;
+    top: 2070px;
+}
+.c1{
+    display: flex;
+    align-items: flex-start;
+    /* justify-content: center; */
+    flex-direction: column;
+    position: relative;
+    /* top: 100px;
+    left: 200px; */
+}
+.c1 h2{
+    font-family: Okra, Helvetica, sans-serif;
+    font-size: 15px;
+    letter-spacing: 1px;
+    /* font-weight: 300; */
+}
+.c1 p{
+    font-family: Okra, Helvetica, sans-serif;
+    color:rgba(20, 20, 20, 0.704);
+    line-height:200%;
+}
+.p1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
